@@ -24,7 +24,7 @@ header
 }
 .headerlink button
 {
-    color: hsl(228, 45%, 44%);
+    /* color: hsl(228, 45%, 44%); */
     font-size: 20px;
     border-radius: 15px;
     border: none;
@@ -33,7 +33,7 @@ header
 }
 .headerlink span
 {
-    color: hsl(228, 45%, 44%);
+    /* color: hsl(228, 45%, 44%); */
     font-size: 20px;
 }
 
@@ -302,47 +302,89 @@ main
     margin-left: -80px;
     font-family: url=("https://fonts.google.com/specimen/Raleway");
     font-Weight: 400;
+    gap: 40px;
+    
+   
 }
 
-@media screen and (max-width:800px) {
-    .headerlink
-    {
-        width: 200px
-    }
+#iconsfti
+{
+    /* background: hsl(240, 75%, 98%); */
+    width: 50px;
+    height: 50px;
+    border-radius: 50% solid hsl(240, 75%, 98%);
+    gap: 20px;
+}
 
-    .hero
+@media screen and (max-width:600px) {
+
+    main
+    {
+        height: fit-content;
+    }
+     .hero
     {
         flex-direction:column-reverse;
         align-items: center;
+
+    }
+
+    .sectionheader
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 30px;
+        font-family: url=("https://fonts.google.com/specimen/Raleway");
+        font-Weight: 700;
+      
+        
+    }
+
+    .headerlink
+    {
+        width: 250px;
+        
+    }
+
+    .logoContainer img
+    {
+        width: 100px;
+        height: 50px;
+        margin-top: 20px;
+        padding-left: 30px;
     }
 
     .first_hero_box
     {
-        width: 500px;
+        width: 300px;
         text-align: center;
+
     }
 
     .first_hero_box h2
     {
         margin-left: 20px;
-        width: 400px;
+        width: 280px;
+        
     }
 
     .first_hero_box p
     {
 
-        width: 470px;
-       padding-left: 13px;
+        
+        width: 300px;
     }
 
     .first_hero_box input
     {
-        width: 450px;
+        width: 300px;
+        
     }
 
     .first_hero_box button
     {
-        width: 450px;
+        width: 300px;
         margin-top: 10px;
     }
 
@@ -352,100 +394,167 @@ main
         align-items: center;
     }
 
-    main
-    {
-        max-height: 100;
-    }
 
     .second_hero_box
     {
-        width: 500px;
+        width: 475px;
+    
 
     }
 
     .four_hero_box
     {
-        width: 400px;
+        width: 475px;
+    
+        margin-top: 100px;
     }
 
     .three_hero_box
     {
-        max-height: 100%;
-        width: 500px;
+        /* height: auto; */
+        align-items: center;
+        text-align: center;
+        width: 475px;
+    
     }
+
+     
 
     .three_hero_box h2
     {
 
-        width: 480px;
-        padding-left: 10px;
+        width: 400px;
+    
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+    
+    
+    .three_hero_box p
+    {
+        padding-left: 50px;
+        margin-left: 30px;
+        width: 330px;
+        /* border: 2px  solid; */
+
+    }
+
+    .three_hero_box h6
+    {
+
+        width: 330px;
+        padding-left: 50px;
+        margin-left: 30px;
+        /* border: 2px  solid; */
+        margin-bottom: 70px;
     }
 
     
-
-    .three_hero_box p
-    {
-        padding-left: 20px;
-        width: 300px;
-
-    }
-    .three_hero_box h6
-    {
-        padding-left: 20px;
-        width: 340px;
-    }
     .three_hero_box span
     {
         text-align: center;
         padding-left: 20px;
-        margin-left: 120px;
+        
         border-bottom: 1px solid;
+        
     }
 
     .kids-container
     {
-        width: 350px;
+        width: 380px;
         margin-left: 70px;
+        margin-top: 20px;
+      
+    }
+
+    #lefticons
+    {
+      
+        margin-left: -300px;
+    }
+
+    .kids-container h5
+    {
+      
+        text-align: left;
+        margin-left: 20px;
+        width: 330px;
     }
 
     .flyerAcccessContainer
     {
         display: inline-block;
-        margin-top: 550px;
+        margin-top: 100px;
         align-items: center;
         height: 390px;
         width: 500;
+       
     }
+
 
     .flyerAccessText h2
     {
-        width: 300px;
-        margin-left: 120px;
+        width: 250px;
+        margin-left: 130px;
+    
     }
 
     .flyerAccessText p
     {
         width: 280px;
         text-align: center;
-        margin-left: 90px;
+        margin-left: 110px;
+       
     }
 
     .flyeraccessinput input
     {
-        width: 250px;
+        width: 300px;
         margin-left: 110px;
     }
 
     .flyeraccessinput button
     {
         margin-left: 110px;
-        width: 250px;
+        width: 300px;
     }
+
+    
 
     .flyerfooterContainer
     {
         display: inline-block;
-        height: 650px;
+        height: 90vh;
+       
+    } 
+
+    .footerlogo 
+    {
+        padding-left: 50px;
+        gap: 10px
     }
+
+    .footerabout
+    {
+        padding-left: 50px;
+        gap: 10px;
+    }
+
+    .footercontact{
+        padding-left: 50px;
+        gap: 10px;
+    }
+
+    .footericon
+    {
+        display: flex;
+        margin-left: 370px;
+        align-items: center;
+        /* width: 200px; */
+
+        margin-top: -50px;
+    }
+
 
 }
